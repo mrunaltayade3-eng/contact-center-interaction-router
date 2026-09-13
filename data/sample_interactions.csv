@@ -1,0 +1,31 @@
+interaction_id,customer_id,message,previous_contacts,expected_intent,expected_queue
+SYN-001,DEMO-001,Someone stole my card. There is an unauthorized $200 charge yesterday.,0,fraud,fraud
+SYN-002,DEMO-002,I was charged twice for order #AB-123 yesterday.,0,payment_dispute,billing
+SYN-003,DEMO-003,I need a refund for order ID R-100.,0,refund_request,billing
+SYN-004,DEMO-004,I forgot my password.,0,account_access,account
+SYN-005,DEMO-005,The app is not working.,0,technical_support,technical
+SYN-006,DEMO-006,Where is my order?,0,order_status,orders
+SYN-007,DEMO-007,Please cancel my subscription.,0,cancellation,retention
+SYN-008,DEMO-008,"Hello, I have a question.",0,unknown,general_support
+SYN-009,DEMO-009,This duplicate charge is unacceptable. I need a supervisor.,2,payment_dispute,billing
+SYN-010,DEMO-010,Calling again about my refund. I am frustrated.,1,refund_request,billing
+SYN-011,DEMO-011,"Thanks, please track my order.",0,order_status,orders
+SYN-012,DEMO-012,I cannot log in and need help immediately.,0,account_access,account
+SYN-013,DEMO-013,The app crashes. This is my third time calling.,0,technical_support,technical
+SYN-014,DEMO-014,I do not recognize this transaction and want a refund.,0,fraud,fraud
+SYN-015,DEMO-015,Please unsubscribe me.,0,cancellation,retention
+SYN-016,DEMO-016,There is an error with my connection.,1,technical_support,technical
+SYN-017,DEMO-017,I am not happy with this refund delay.,0,refund_request,billing
+SYN-018,DEMO-018,"Thank you, but this wrong charge is terrible.",0,payment_dispute,billing
+SYN-019,DEMO-019,My delivery is late. I already spoke to someone.,0,order_status,orders
+SYN-020,DEMO-020,I need a manager.,0,unknown,general_support
+SYN-021,DEMO-021,"I was charged $1,250.00 twice today.",0,payment_dispute,billing
+SYN-022,DEMO-022,An unauthorized payment appeared. Urgent!,1,fraud,fraud
+SYN-023,DEMO-023,I am locked out.,2,account_access,account
+SYN-024,DEMO-024,"Refund please, and cancel my subscription.",0,refund_request,billing
+SYN-025,DEMO-025,The app is down. Nobody has fixed this. I called three times.,0,technical_support,technical
+SYN-026,DEMO-026,What are your opening hours?,0,unknown,general_support
+SYN-027,DEMO-027,My parcel has not arrived.,0,order_status,orders
+SYN-028,DEMO-028,I need to regain access to my profile.,0,account_access,account
+SYN-029,DEMO-029,Terminate my membership.,0,cancellation,retention
+SYN-030,DEMO-030,My card went missing.,0,fraud,fraud
