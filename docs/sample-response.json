@@ -1,0 +1,35 @@
+{
+  "customer_id": "DEMO-001",
+  "understanding": {
+    "intent": "payment_dispute",
+    "matched_intents": [
+      "payment_dispute"
+    ],
+    "evidence": [
+      "charged twice",
+      "charged.*twice"
+    ],
+    "slots": {
+      "order_id": "AB-123",
+      "date_mention": "yesterday"
+    }
+  },
+  "analysis": {
+    "sentiment": "neutral",
+    "repeat_contact": false,
+    "escalation_risk": false,
+    "signals": []
+  },
+  "priority_score": 50,
+  "priority": "high",
+  "queue": "billing",
+  "reasons": [
+    "intent:payment_dispute (+50)"
+  ],
+  "response": "Recommended next step: connect you with our billing team. A support agent will review your request.",
+  "speech": {
+    "provider": "mock",
+    "audio_generated": false,
+    "text": "Recommended next step: connect you with our billing team. A support agent will review your request."
+  }
+}

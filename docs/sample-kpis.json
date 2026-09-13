@@ -1,0 +1,31 @@
+{
+  "dataset": "synthetic_demo",
+  "total_interactions": 30,
+  "intent_accuracy": 0.8667,
+  "routing_accuracy": 0.8667,
+  "repeat_contact_signal_rate": 0.2667,
+  "escalation_risk_rate": 0.1667,
+  "negative_or_mixed_sentiment_rate": 0.1667,
+  "queue_distribution": {
+    "account": 3,
+    "billing": 8,
+    "fraud": 3,
+    "general_support": 7,
+    "orders": 3,
+    "retention": 2,
+    "technical": 4
+  },
+  "priority_distribution": {
+    "critical": 4,
+    "high": 6,
+    "low": 10,
+    "medium": 10
+  },
+  "repeat_signals_by_queue": {
+    "account": 1,
+    "billing": 2,
+    "fraud": 1,
+    "orders": 1,
+    "technical": 3
+  }
+}
